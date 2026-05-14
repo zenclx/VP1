@@ -1,0 +1,12 @@
+Added queue announcement system.
+
+When a queue starts:
+- Queue message announces the match started
+- Players are pinged
+- Users are told to use /spectate
+
+When a queue is cancelled:
+- Queue message announces cancellation
+- Players are pinged
+
+Restart the bot after replacing files.

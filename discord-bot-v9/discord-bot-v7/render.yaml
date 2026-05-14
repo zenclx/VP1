@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: discord-scoreboard-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false       # You'll paste this in Render dashboard
+      - key: CLIENT_ID
+        sync: false
+      - key: GUILD_ID
+        sync: false
+      - key: NODE_ENV
+        value: production
+      - key: NODE_VERSION
+        value: 22
