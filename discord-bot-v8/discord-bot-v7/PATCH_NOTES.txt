@@ -1,0 +1,10 @@
+Applied fixes:
+- Fixed slash command loader so ELO commands register properly
+- Fixed /elorank progress calculation
+- Added player ping when match starts
+- Added ELO match summary helper
+- Included all updated source files
+
+After uploading:
+1. Restart the bot
+2. Run: node deploy-commands.js
