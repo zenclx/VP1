@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord scoreboard & match bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.6.1",
+    "@napi-rs/canvas": "^1.0.0",
+    "discord-api-types": "^0.38.47",
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

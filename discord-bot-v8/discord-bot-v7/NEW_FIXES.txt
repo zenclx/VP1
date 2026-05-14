@@ -1,0 +1,13 @@
+New fixes applied:
+
+1. Match start pings now properly ping users
+2. ELO now updates after wins/losses
+3. ELO cannot go below 0
+4. Wins/losses now track correctly
+5. /elorank now displays W/L record
+6. /eloleaderboard now displays W/L record
+7. Added automatic leaderboard refresh helper
+
+IMPORTANT:
+Restart the bot and run:
+node deploy-commands.js
